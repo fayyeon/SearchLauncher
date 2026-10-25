@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Search Launcher</string>
+    <string name="search_placeholder">Search apps...</string>
+    <string name="clear_search">Clear search</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="app_info">App Info</string>
+    <string name="uninstall">Uninstall</string>
+</resources>
