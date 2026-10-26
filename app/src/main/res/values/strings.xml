@@ -6,4 +6,6 @@
     <string name="no_apps_found">No apps found</string>
     <string name="app_info">App Info</string>
     <string name="uninstall">Uninstall</string>
+    <string name="accessibility_lock_desc">Allows Search Launcher to turn off and lock the screen on double tap</string>
+    <string name="enable_accessibility_toast">Enable Search Launcher in Accessibility to turn off screen with double tap</string>
 </resources>

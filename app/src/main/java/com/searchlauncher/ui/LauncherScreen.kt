@@ -2,6 +2,8 @@ package com.searchlauncher.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,6 +33,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.searchlauncher.R
+import com.searchlauncher.service.LockScreenService
 import com.searchlauncher.ui.components.AppListItem
 import com.searchlauncher.ui.components.LauncherBottomBar
 
@@ -69,6 +72,13 @@ fun LauncherScreen(
         modifier = modifier
             .fillMaxSize()
             .background(Color.Black)
+            .pointerInput(Unit) {
+                detectTapGestures(
+                    onDoubleTap = {
+                        LockScreenService.lockScreen(context)
+                    }
+                )
+            }
     ) {
         Column(
             modifier = Modifier
@@ -80,6 +90,13 @@ fun LauncherScreen(
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth()
+                    .pointerInput(Unit) {
+                        detectTapGestures(
+                            onDoubleTap = {
+                                LockScreenService.lockScreen(context)
+                            }
+                        )
+                    }
             ) {
                 if (isLoading) {
                     Box(
