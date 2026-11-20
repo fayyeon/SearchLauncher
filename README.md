@@ -1,4 +1,6 @@
-# No longer maintained because my phone's kinda problematic with 3rd party launcher (yikes). If you want to continue the development or add your own additional features, you can fork it.
+# No longer maintained because my phone's kinda problematic with 3rd party launcher (yikes)
+
+If you want to continue the development or add your own additional features, you can fork it.
 
 ---
 
@@ -12,9 +14,9 @@ For my personal-usage only, that's why I'm trying to make it as simple as possib
 
 ## Features
 
-- Search bar that's positioned on the bottom of your screen, easier to reach with one-hand.
-- Very simple by default. App would only appear when you search it.
-- Pure black wallpaper background that helps you stay focused.
+- 🔍 Search bar that's positioned on the bottom of your screen, easier to reach with one-hand.
+- ✨ Very simple by default. App would only appear when you search it.
+- 🖤 Pure black wallpaper background that helps you stay focused.
 
 ---
 
